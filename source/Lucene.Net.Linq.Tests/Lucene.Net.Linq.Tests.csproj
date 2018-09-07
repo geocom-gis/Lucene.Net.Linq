@@ -187,12 +187,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lucene.Net.Linq\Lucene.Net.Linq.csproj">
-      <Project>{77AD18CC-93A3-4BC9-9F31-2C16D873F088}</Project>
-      <Name>Lucene.Net.Linq</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
